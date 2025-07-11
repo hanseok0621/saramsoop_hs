@@ -23,7 +23,7 @@ const LoginForm: React.FC<LoginFormProps> = ({ onSubmit }) => {
   return (
     <form onSubmit={handleSubmit}>
       {/* 로고 */}
-      <Box mb={2}>
+      <Box mb={1}>
         <img src={logo} alt="logo" style={{ width: 110, height: 110 }} />
       </Box>
 
